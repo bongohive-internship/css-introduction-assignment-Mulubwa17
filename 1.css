@@ -1,0 +1,33 @@
+.box {
+    width: 250px;
+    height: 300px;
+    background-color: transparent;
+    float: right;
+    margin: 20px 10px;
+    transition: 0.8s;
+    color: rgb(255, 255, 255);
+    background-position: center;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background-color: lightslategray;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    background-image: url("5.jpg");
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hover {
+    text-align: center;
+    color: White;
+    font-family: sans-serif;
+}
